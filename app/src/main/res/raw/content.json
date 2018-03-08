@@ -1,0 +1,72 @@
+{
+  "categories":
+  [
+    {"name":"regles"},
+    {"name":"securite"},
+    {"name":"bonnes_pratiques"},
+    {"name":"materiel_necessaire"},
+    {"name":"materiel_necessaire"},
+    {"name":"regles"}
+  ],
+  "content":
+  [
+    {
+      "category":"regles",
+      "icon":"drop",
+      "title":"Manipuler des fluides frigorigènes",
+      "longText":"L’intervention sur des installations frigorifiques (installation, maintenance) qui nécessite de manipuler des fluides frigorigènes est strictement encadrée par la réglementation. En effet, les fluides frigorigènes ont un fort impact sur le réchauffement climatique, il est donc interdit de les relarguer dans l’atmosphère. Le frigoriste doit répondre aux obligations en vigueur : attestation de capacité, matériel adéquat et élimination des fluides en filières spécifiques."
+    },
+    {
+      "category":"regles",
+      "icon":"drop",
+      "title":"Manipuler des fluides frigorigènes",
+      "longText":"L’intervention sur des installations frigorifiques (installation, maintenance) qui nécessite de manipuler des fluides frigorigènes est strictement encadrée par la réglementation. En effet, les fluides frigorigènes ont un fort impact sur le réchauffement climatique, il est donc interdit de les relarguer dans l’atmosphère. Le frigoriste doit répondre aux obligations en vigueur : attestation de capacité, matériel adéquat et élimination des fluides en filières spécifiques."
+    },
+    {
+      "category":"securite",
+      "icon":"nuage",
+      "title":"La pollution de l’air",
+      "longText":"Les activités de la construction et de la rénovation provoquent des émissions de poussières, particules et fumées dans l’air. Ces nuisances aériennes peuvent avoir un impact aussi bien sur l’environnement que sur la santé des professionnels. Le risque face à l’amiante reste présent et important pour beaucoup de professionnels du bâtiment. l est donc important d’identifier et de maîtriser ces nuisances."
+    },{
+      "category":"securite",
+      "icon":"bonnes_pratiques",
+      "title":"La consommation en énergie",
+      "longText":"Les déplacements et l’usage de machines et d’engins de chantier engendrent une consommation d’énergie, ce qui va provoquer l’émission de polluants dans l’atmosphère. Sans compter l’ “énergie grise”, qui est consommée pour la fabrication des matériaux de construction…"
+    },{
+      "category":"materiel_necessaire",
+      "icon":"materiel_necessaire",
+      "title":"Acétone et dissolvants",
+      "longText":"Stocker dans des récipients en fer, en acier ou en aluminium. Le verre est utilisable pour des petites quantités. Stocker dans des locaux frais et ventilés. Stocker à l'abri de toute source de chaleur et à l'écart des produits oxydants."
+    },
+    {
+      "category":"regles",
+      "icon":"securite",
+      "title":"Réglementation chantiers amiante",
+      "longText":"De plus en plus de contrôle amiante sont effectués sur les chantiers, et les entreprises non conformes et verbalisées sont beaucoup trop nombreuses (2 chantiers sur 3 non-conformes en 2005)."
+    },
+    {
+      "category":"regles",
+      "icon":"nuage",
+      "title":"Contrôler les fumées de combustion",
+      "longText":"Les chauffagistes ont un rôle important à jouer auprès de leurs clients, pour assurer  l’entretien des chaudières. Le contrôle de combustion fait partie de ces tâches. Il faut vérifier le tirage des fumées et commencer la mesure des fumées. Les paramètres obligatoires sont déterminés : la température, le taux de CO2 et de CO (ppm), l’excès d’air et finalement le rendement de la chaudière."
+    },
+    {
+      "category":"bonnes_pratiques",
+      "icon":"nuage",
+      "title":"Réduire les émissions de polluants",
+      "longText":"Fermez les bidons, pots, fûts et autres récipients de produits quand vous ne les utilisez pas, particulièrement pour des produits très volatiles. Captez au maximum les gaz et fumées de soudage, si possible à la source. Vous limiterez ainsi les émissions de produits et de COV dans l'atmosphère."
+    },
+    {
+      "category":"securite",
+      "icon":"drop",
+      "title":"Manipulation des produits",
+      "longText":"Lors de la manipulation de certains produits, en particulier des acides, l’artisan doit se protéger à l’aide d’un masque adapté. Il doit aussi penser à ventiler longuement les locaux où il travaille."
+    },
+    {
+      "category":"bonnes_pratiques",
+      "icon":"fire",
+      "title":"Ne plus brûler de déchets",
+      "longText":"Il faut abandonner le brûlage de l’ensemble des déchets, même quand ça semble la solution de facilité ou même quand il n’y a que quelques cartons à brûler. Les déchets de chantier doivent être éliminés correctement, dans des filières autorisées."
+    }
+  ]
+}

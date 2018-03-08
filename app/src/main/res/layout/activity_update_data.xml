@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cimin.info503_ciminera_steeve.Activity.UpdateData"
+    android:weightSum="3">
+
+
+    <TextView
+        android:id="@+id/gestionBddTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Gestion de la base de donnée" />
+
+    <Button
+        android:id="@+id/updateb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Mise à jour" />
+
+
+    <Button
+        android:id="@+id/cleanb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Vider la base de donnée" />
+
+
+</LinearLayout>

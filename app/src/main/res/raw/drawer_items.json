@@ -1,0 +1,10 @@
+{
+  "items":
+  [
+    {"name":"acceuil", "icon":"home", "group":1},
+    {"name":"tout_voir", "icon":"eye", "group":1},
+    {"name":"favoris", "icon":"star", "group":1},
+    {"name":"Mise à jour", "icon":"nuage", "group":1},
+    {"name":"divider", "icon":"", "group":0}
+  ]
+}

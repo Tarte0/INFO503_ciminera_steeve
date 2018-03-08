@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <include
+        layout="@layout/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25" />
+
+    <android.support.v4.widget.DrawerLayout android:id="@+id/myDrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight=".75"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/drawerLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#FFFFFFFF"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/drawerLv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="20sp"
+                android:focusableInTouchMode="true"
+                android:choiceMode="singleChoice"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/behindDrawerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".75"
+            android:orientation="vertical"
+            android:weightSum="1.0"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/longTextTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.90"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
